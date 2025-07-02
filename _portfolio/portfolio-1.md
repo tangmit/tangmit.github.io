@@ -1,7 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "From Rooms to Zooms: The Hidden Costs of Hybrid Work in Primary Care"
+excerpt: "<i> With A Jay Holmgren, Robert S. Huckman, J. Michael McWilliams, and Maximillian J. Pany </i>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+_With A Jay Holmgren, Robert S. Huckman, J. Michael McWilliams, and Maximillian J. Pany_
+
+<img src="/images/modalities.png" width="350"/>
+
+Today, many workers have hybrid work schedules with a mix of in-person and virtual meetings. Though virtual meetings have clear benefits, they can introduce new frictions when integrated into predominantly in-person schedules. We examine these frictions in the context of hybrid primary care practices, which offer both in-person and telemedicine visits. Using data for 35 practices at a large academic health system, we find that transitions between visit types can burden providers and negatively impact patient experiences. Telemedicine visits following an in-person visit often see delayed starts; patients are 75% more likely to abandon the visit before being seen, and the visits that do occur are 25% less likely to begin on time. These disruptions also result in less comprehensive visits and a higher likelihood of after-hours work. Dedicated telemedicine-only blocks in provider schedules help avoid these costly transitions but can also lead to reduced capacity utilization when there is insufficient demand for telemedicine visits in that time window. Indeed, we find that telemedicine-only slots see a 10% lower booking rate relative to similar slots without such restrictions. Telemedicine visits are often framed as a useful tool for improving patient care access. However, we show that, depending on how they are incorporated into hybrid schedules, they can lead to negative care experiences, chaotic clinic days, and ironically even reductions in patient access. Our findings also demonstrate the tradeoffs of dedicated telemedicine blocks and highlight potential changes to managerial practices and clinical workflows to improve performance of hybrid practices.
