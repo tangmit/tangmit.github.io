@@ -19,3 +19,15 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
+
+<!-- Google tag (gtag.js) -->
+{% if jekyll.environment == "production" %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6BRXDLLS04"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6BRXDLLS04');
+</script>
+{% endif %}
