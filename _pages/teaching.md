@@ -1,18 +1,17 @@
 ---
-layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
 
-## As faculty
-<hr style="border: none; height: 1px; background-color: black;" />
+As faculty
+---
 **Strategic Management, Columbia University Mailman School of Public Health**\
 Spring 2026 _(planned)_
 
 
-## As graduate student
-<hr style="border: none; height: 1px; background-color: black;" />
+As graduate student
+---
 **Transforming Health Care Delivery, Harvard Business School**\
 Teaching Fellow for Professor Ariel Stern, Spring 2023 and 2024
 

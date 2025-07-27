@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
@@ -10,8 +9,8 @@ author_profile: true
 {% endif %}
 
 
-## Peer-reviewed journal articles
-<hr style="border: none; height: 1px; background-color: black;" />
+Peer-reviewed journal articles
+---
 Marcondes, F. O., **Tang, M.**, Haas, J. S., Mehrotra, A., Bustamante A. V. (2025). Remote Physiologic Monitoring Use Among Medicare Enrollees: Differences By Race, Ethnicity. Health Affairs, _In Press_
 
 Hailu, R., Sousa, J., **Tang, M.**, Mehrotra, A., & Uscher-Pines, L. (2024). Challenges and 
@@ -59,8 +58,8 @@ use. Journal of the American Medical Informatics Association, 29(3), 453–460.
 &nbsp;&nbsp;📣 *Media coverage*: [New York Times](https://www.nytimes.com/2023/01/24/health/emails-billing-doctors-patients.html), [NPR](https://www.npr.org/sections/health-shots/2023/07/21/1188739567/direct-message-doctor-patient-portal-charge)
 
 
-## Other articles
-<hr style="border: none; height: 1px; background-color: black;" />
+Other articles
+---
 **Tang, M.**, Wilson K., Mehrotra A. (2024) Paying for AI In Healthcare: Setting The Right
 Precedent Amidst Growing Use. Health Affairs Forefront. [Link to access](https://www.healthaffairs.org/content/forefront/paying-artificial-intelligence-health-care-setting-right-precedent-amidst-growing-use)
 
@@ -69,10 +68,9 @@ of Telemedicine. Harvard Business Review (website). [Link to access](https://hbr
 
 <br>
 
-___
 
-## Genetics and computational biology articles
-<hr style="border: none; height: 1px; background-color: black;" />
+Genetics and computational biology articles
+---
 As an undergraduate, I conducted research at the Penn Neurodegeneration Genomics Center (PNGC) within the Perelman School of Medicine applying computational methods to study the genetics of late-onset Alzheimer’s disease. This work is only tangentially related to the research I do now, but I'm proud of it nonetheless and it include it here to reflect my full academic publication record.
 
 Amlie-Wolf A., **Tang, M.**, Way J., Dombroski B., Jiang M., Vrettos N., ..., Wang L. S., Schellenberg G. D. (2019). Inferring the molecular mechanisms of noncoding Alzheimer's disease-associated genetic variants. Journal of Alzheimer's Disease, 72(1), 301-318. [Link to access](https://doi.org/10.3233/JAD-190568)
