@@ -71,7 +71,7 @@ of Telemedicine. Harvard Business Review (website). [Link to access](https://hbr
 
 Genetics and computational biology articles
 ---
-As an undergraduate, I conducted research at the Penn Neurodegeneration Genomics Center (PNGC) within the Perelman School of Medicine applying computational methods to study the genetics of late-onset Alzheimer’s disease. This work is only tangentially related to the research I do now, but I'm proud of it nonetheless and it include it here to reflect my full academic publication record.
+As an undergraduate, I conducted research at the [Penn Neurodegeneration Genomics Center (PNGC)](https://www.penn-ngc.org/) applying computational methods to study the genetics of late-onset Alzheimer’s disease. This work is only tangentially related to the research I do now, but I'm proud of it nonetheless and include it here to reflect my full publication record.
 
 Amlie-Wolf A., **Tang, M.**, Way J., Dombroski B., Jiang M., Vrettos N., ..., Wang L. S., Schellenberg G. D. (2019). Inferring the molecular mechanisms of noncoding Alzheimer's disease-associated genetic variants. Journal of Alzheimer's Disease, 72(1), 301-318. [Link to access](https://doi.org/10.3233/JAD-190568)
 
