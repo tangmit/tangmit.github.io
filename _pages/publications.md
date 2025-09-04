@@ -11,11 +11,11 @@ author_profile: true
 
 Peer-reviewed journal articles
 ---
-Marcondes, F. O., **Tang, M.**, Haas, J. S., Mehrotra, A., Bustamante A. V. (2025). Remote Physiologic Monitoring Use Among Medicare Enrollees: Differences By Race, Ethnicity. Health Affairs, _In Press_
+Marcondes, F., **Tang, M.**, Haas, J. S., Mehrotra, A., & Bustamante, A. V. (2025). Remote Physiologic Monitoring Use Among Medicare Patients: Differences By Race, Ethnicity: Article examines remote physiologic monitoring use among Medicare patience by race, ethnicity. Health Affairs, 44(8), 1005–1010. [Link to access](https://doi.org/10.1377/hlthaff.2024.01394)
 
 Hailu, R., Sousa, J., **Tang, M.**, Mehrotra, A., & Uscher-Pines, L. (2024). Challenges and 
 Facilitators in Implementing Remote Patient Monitoring Programs in Primary Care. Journal of
-General Internal Medicine. [Link to access](https://doi.org/10.1007/s11606-023-08557-x)
+General Internal Medicine, 39(13), 2471–2477. [Link to access](https://doi.org/10.1007/s11606-023-08557-x)
 
 **Tang, M.**, Mishuris, R. G., Payvandi, L., & Stern, A. D. (2024). Differences in Care Team
 Response to Patient Portal Messages by Patient Race and Ethnicity. JAMA Network Open, 7(3),

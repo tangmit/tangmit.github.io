@@ -19,4 +19,4 @@ I have been fascinated by new ways of delivering care, particularly the **growin
 
 My background
 ---
-I received my PhD in [Health Policy (Management) from Harvard University](https://www.hbs.edu/doctoral/phd-programs/health-policy/Pages/default.aspx) and BS and BA degrees in Economics and Computational Biology from the University of Pennslyvania as part of the [Vagelos Program in Life Sciences and Management](https://lsm.upenn.edu/). Before my PhD I worked as a management consultant at the [Boston Consulting Group](https://www.bcg.com/).
+I received my PhD in [Health Policy (Management) from Harvard University](https://www.hbs.edu/doctoral/phd-programs/health-policy/Pages/default.aspx) and BS and BA degrees in Economics and Computational Biology from the University of Pennsylvania as part of the [Vagelos Program in Life Sciences and Management](https://lsm.upenn.edu/). Before my PhD, I worked as a management consultant at the [Boston Consulting Group](https://www.bcg.com/). I hail from Pullman, Washington, home of [Washington State University](https://wsu.edu/) (go Cougs!).
