@@ -9,6 +9,8 @@ redirect_from:
 
 I'm currently an Assistant Professor of [Health Policy and Management at the Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/departments/health-policy-management). 
 
+I study how digital technologies such as telemedicine, remote monitoring, and artificial intelligence are reshaping healthcare delivery and their implications for patients, providers, and policymakers.
+
 My research
 ---
 My work sits at the **intersection of empirical operations management and health services research**. I believe that improvements to health care delivery systems and processes are vital for improving the accessibility, quality, efficiency, and equity of our health care system. 
@@ -19,4 +21,6 @@ I have been fascinated by new ways of delivering care, particularly the **growin
 
 My background
 ---
-I received my PhD in [Health Policy (Management) from Harvard University](https://www.hbs.edu/doctoral/phd-programs/health-policy/Pages/default.aspx) and BS and BA degrees in Economics and Computational Biology from the University of Pennsylvania as part of the [Vagelos Program in Life Sciences and Management](https://lsm.upenn.edu/). Before my PhD, I worked as a management consultant at the [Boston Consulting Group](https://www.bcg.com/). I hail from Pullman, Washington, home of [Washington State University](https://wsu.edu/) (go Cougs!).
+I received my PhD in [Health Policy (Management) from Harvard University](https://www.hbs.edu/doctoral/phd-programs/health-policy/Pages/default.aspx) and BS and BA degrees in Economics and Computational Biology from the University of Pennsylvania as part of the [Vagelos Program in Life Sciences and Management](https://lsm.upenn.edu/). 
+
+Before my PhD, I worked as a management consultant at the [Boston Consulting Group](https://www.bcg.com/). I hail from Pullman, Washington, home of [Washington State University](https://wsu.edu/) (go Cougs!).
