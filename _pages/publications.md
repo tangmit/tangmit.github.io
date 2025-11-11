@@ -11,7 +11,7 @@ author_profile: true
 
 Peer-reviewed journal articles
 ---
-**Tang, M.**, Stern, A. D., Marcondes, F., & Mehrotra, A. (2025). Practices That Adopted Remote Physiologic Monitoring Increased Medicare Revenue And Outpatient Visits. Health Affairs, 44(11), 1386–1394. [Link to access](https://doi.org/10.1377/hlthaff.2025.00683)
+**Tang, M.**, Stern, A. D., Marcondes, F., & Mehrotra, A. (2025). Practices That Adopted Remote Physiologic Monitoring Increased Medicare Revenue And Outpatient Visits. Health Affairs, 44(11), 1386–1394. [Link to access](https://doi.org/10.1377/hlthaff.2025.00683)  
 &nbsp;&nbsp;📣 *Media coverage*: [STAT News](https://www.statnews.com/2025/11/07/united-healthcare-remote-patient-monitoring-medicare-advantage/), [STAT Health Tech Newsletter](https://www.statnews.com/2025/11/06/fda-ai-llm-therapy-chatbot-regulation-health-tech/), [AJMC](https://www.ajmc.com/view/remote-patient-monitoring-improves-patient-access-care-and-revenue)
 
 Rotenstein, L. S., Hardy, B., **Tang, M.**, Steitz, B., Turer, R. W., Alsentzer, E., & Barnett, M. L. (2025). Patient-Physician Messaging by Race, Ethnicity, Insurance Type, and Preferred Language. JAMA Network Open, 8(10), e2534549. [Link to access](https://doi.org/10.1001/jamanetworkopen.2025.34549)
