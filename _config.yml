@@ -43,7 +43,7 @@ author:
   scopus           : # URL
 
   # Social media
-  bluesky          : "mitchelltang.bsky.social" # Replace this with you Bluesky username
+  bluesky          : # Username # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -52,7 +52,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "mitchell-tang-bb786032"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
