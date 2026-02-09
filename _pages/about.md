@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently an Assistant Professor of [Health Policy and Management at the Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/departments/health-policy-management). 
+I'm currently an Assistant Professor of [Health Policy and Management at the Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/profile/mitchell-tang). 
 
 My research
 ---
