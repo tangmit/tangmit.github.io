@@ -11,8 +11,11 @@ author_profile: true
 
 Peer-reviewed journal articles
 ---
+**Tang, M.**, Rotenstein, L. S., Stern, A. D., Mishuris, R. G., & Barnett, M. L. (2026). Care Team Response to Patient Portal Message Content and Writing Style. JAMA Network Open, 9(8), e2630379. [Link to access](https://doi.org/10.1001/jamanetworkopen.2026.30379)
+&nbsp;&nbsp;📣 *Media coverage*: [Columbia Mailman School of Public Health](https://www.publichealth.columbia.edu/news/study-finds-how-patients-write-their-messages-may-affect-whether-their-doctor-responds), [CNN](https://www.cnn.com/2026/08/24/health/doctor-patient-portal-responses-wellness), [Forbes](https://www.forbes.com/sites/paulhsieh/2026/08/30/how-your-writing-affects-whether-your-doctor-replies-to-your-messages/), [Digital Health Wire](https://digitalhealthwire.com/the-hidden-bias-in-portal-message-triage/)
+
 **Tang, M.**, Stern, A. D., Marcondes, F., & Mehrotra, A. (2025). Practices That Adopted Remote Physiologic Monitoring Increased Medicare Revenue And Outpatient Visits. Health Affairs, 44(11), 1386–1394. [Link to access](https://doi.org/10.1377/hlthaff.2025.00683)  
-&nbsp;&nbsp;📣 *Media coverage*: [STAT News](https://www.statnews.com/2025/11/07/united-healthcare-remote-patient-monitoring-medicare-advantage/), [STAT Health Tech Newsletter](https://www.statnews.com/2025/11/06/fda-ai-llm-therapy-chatbot-regulation-health-tech/), [AJMC](https://www.ajmc.com/view/remote-patient-monitoring-improves-patient-access-care-and-revenue)
+&nbsp;&nbsp;📣 *Media coverage*: [Columbia Mailman School of Public Health](https://www.publichealth.columbia.edu/news/remote-patient-monitoring-boosts-primary-care-revenue-care-capacity), [STAT News](https://www.statnews.com/2025/11/07/united-healthcare-remote-patient-monitoring-medicare-advantage/), [STAT Health Tech Newsletter](https://www.statnews.com/2025/11/06/fda-ai-llm-therapy-chatbot-regulation-health-tech/), [AJMC](https://www.ajmc.com/view/remote-patient-monitoring-improves-patient-access-care-and-revenue)
 
 Rotenstein, L. S., Hardy, B., **Tang, M.**, Steitz, B., Turer, R. W., Alsentzer, E., & Barnett, M. L. (2025). Patient-Physician Messaging by Race, Ethnicity, Insurance Type, and Preferred Language. JAMA Network Open, 8(10), e2534549. [Link to access](https://doi.org/10.1001/jamanetworkopen.2025.34549)
 
