@@ -11,7 +11,7 @@ author_profile: true
 
 Peer-reviewed journal articles
 ---
-**Tang, M.**, Rotenstein, L. S., Stern, A. D., Mishuris, R. G., & Barnett, M. L. (2026). Care Team Response to Patient Portal Message Content and Writing Style. JAMA Network Open, 9(8), e2630379. [Link to access](https://doi.org/10.1001/jamanetworkopen.2026.30379)
+**Tang, M.**, Rotenstein, L. S., Stern, A. D., Mishuris, R. G., & Barnett, M. L. (2026). Care Team Response to Patient Portal Message Content and Writing Style. JAMA Network Open, 9(8), e2630379. [Link to access](https://doi.org/10.1001/jamanetworkopen.2026.30379)  
 &nbsp;&nbsp;📣 *Media coverage*: [Columbia Mailman School of Public Health](https://www.publichealth.columbia.edu/news/study-finds-how-patients-write-their-messages-may-affect-whether-their-doctor-responds), [CNN](https://www.cnn.com/2026/08/24/health/doctor-patient-portal-responses-wellness), [Forbes](https://www.forbes.com/sites/paulhsieh/2026/08/30/how-your-writing-affects-whether-your-doctor-replies-to-your-messages/), [Digital Health Wire](https://digitalhealthwire.com/the-hidden-bias-in-portal-message-triage/)
 
 **Tang, M.**, Stern, A. D., Marcondes, F., & Mehrotra, A. (2025). Practices That Adopted Remote Physiologic Monitoring Increased Medicare Revenue And Outpatient Visits. Health Affairs, 44(11), 1386–1394. [Link to access](https://doi.org/10.1377/hlthaff.2025.00683)  

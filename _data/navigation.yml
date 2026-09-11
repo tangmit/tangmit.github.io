@@ -17,14 +17,14 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Press"
-    url: /press/
-
 #  - title: "Talks"
 #    url: /talks/    
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+
+  - title: "Press"
+    url: /press/    
     
  # - title: "Blog Posts"
  #   url: /year-archive/
