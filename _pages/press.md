@@ -9,7 +9,7 @@ Selected general press coverage and interviews unrelated to specific research pr
 General press coverage
 ---
 
-Discussing RPM and RTM payment changes in CY 2027 Mediare Physician Fee Schedule (July, 2026): [Link to access](https://www.statnews.com/2026/07/15/cms-proposes-ban-medicare-remote-patient-monitoring-vendors/)
+Discussing RPM and RTM payment changes in CY 2027 Medicare Physician Fee Schedule (July, 2026): [Link to access](https://www.statnews.com/2026/07/15/cms-proposes-ban-medicare-remote-patient-monitoring-vendors/)
 
 HBS doctoral programs interview (October, 2025): [Link to access](https://www.instagram.com/reel/DPyz3PsgGNx/)
 
