@@ -39,7 +39,8 @@ Outcomes Among Medicare Patients With Hypertension. Annals of Internal Medicine,
 **Tang, M.**, Sharma, Y., Goldsack, J. C., & Stern, A. D. (2023). Building the Business Case for an
 Inclusive Approach to Digital Health Measurement With a Web App (Market Opportunity
 Calculator): Instrument Development Study. JMIR Formative Research, 7(1), e45713.
-[Link to access](https://doi.org/10.2196/45713)
+[Link to access](https://doi.org/10.2196/45713)  
+&nbsp;&nbsp;📣 *Media coverage*: [Digital Medicine Society](https://dimesociety.org/resources/market-opportunity-calculator/), [DiMe Virtual Journal Club](https://www.youtube.com/watch?v=7HU1I2Hb-00)
 
 **Tang, M.**, Holmgren, A. J., McElrath, E. E., Bhatt, A. S., Varshney, A. S., Lee, S. G.,
 Vaduganathan, M., Adler, D. S., & Huckman, R. S. (2022). Investigating the Association Between
