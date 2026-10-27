@@ -37,7 +37,8 @@ main{max-width:1500px;margin:18px auto 60px;padding:0 22px}.summary{display:grid
       <button class="btn" id="saveSnapshotBtn" type="button">Save snapshot</button>
       <button class="btn" id="snapshotsBtn" type="button">Snapshots</button>
       <button class="btn" id="importBtn" type="button">Import</button>
-      <button class="btn" id="csvBtn" type="button">Export CSV</button>
+      <button class="btn" id="csvBtn" type="button">Export change log</button>
+      <button class="btn" id="finalCsvBtn" type="button">Export final hierarchy</button>
       <button class="btn primary" id="exportBtn" type="button">Export project</button>
       <button class="btn danger" id="resetBtn" type="button">Reset</button>
     </div>
@@ -95,6 +96,7 @@ main{max-width:1500px;margin:18px auto 60px;padding:0 22px}.summary{display:grid
   function changed(x){return x.parentId!==x.originalParentId||x.order!==x.originalOrder||x.action!=='Keep'||x.notes||x.title!==initial.find(y=>y.id===x.id)?.title}
   function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
   function render(){
+    const allowedActions=new Set(['Keep','Move','Archive','New']);items.forEach(x=>{if(!allowedActions.has(x.action))x.action='Keep'});
     const q=search.value.trim().toLowerCase();
     const visible=new Set();
     if(q){const map=byId();items.filter(x=>x.title.toLowerCase().includes(q)||x.url.toLowerCase().includes(q)||x.id.toLowerCase().includes(q)).forEach(x=>{visible.add(x.id);let p=x.parentId;while(p&&map[p]){visible.add(p);p=map[p].parentId}})}
@@ -113,7 +115,7 @@ main{max-width:1500px;margin:18px auto 60px;padding:0 22px}.summary{display:grid
     return `<li class="node" data-id="${x.id}"><div class="card ${isChanged?'changed':''} ${x.action==='Archive'?'archived':''}" draggable="${q||fixed?'false':'true'}" data-id="${x.id}">
       <button class="handle" type="button" title="${fixed?'Fixed department home':'Drag to move'}" aria-label="${fixed?'Fixed department home':'Drag '+esc(x.title)}">${fixed?'⌂':'⠿'}</button>
       <div class="title-wrap"><input class="title-input" data-field="title" value="${esc(x.title)}" aria-label="Page title"><div class="meta">${x.id} · ${esc(x.url.replace('https://www.publichealth.columbia.edu',''))}</div></div>
-      <select class="action-select" data-field="action" aria-label="Action for ${esc(x.title)}">${['Keep','Move','Rename','Merge','Archive','Redirect','New'].map(v=>`<option ${x.action===v?'selected':''}>${v}</option>`).join('')}</select>
+      <select class="action-select" data-field="action" aria-label="Action for ${esc(x.title)}">${['Keep','Move','Archive','New'].map(v=>`<option ${x.action===v?'selected':''}>${v}</option>`).join('')}</select>
       <div class="level">Level ${d}</div>
       <div class="card-actions"><button class="disclosure ${kids.length?'':'empty'}" type="button" title="Collapse children" aria-label="Collapse children">▾</button><button class="icon-btn move-page" type="button" title="Move page" aria-label="Move page" ${fixed?'disabled':''}>↳</button><button class="icon-btn notes" type="button" title="Notes" aria-label="Notes">${x.notes?'●':'✎'}</button><a class="icon-btn" href="${esc(x.url)}" target="_blank" rel="noopener" title="Open current page" aria-label="Open current page">↗</a></div>
     </div>${kids.length?`<ul class="children">${kids.map(k=>nodeHTML(k,q,visible)).join('')}</ul>`:''}</li>`
@@ -125,22 +127,31 @@ main{max-width:1500px;margin:18px auto 60px;padding:0 22px}.summary{display:grid
       card.addEventListener('dragover',e=>{if(!dragId||dragId===card.dataset.id)return;e.preventDefault();document.querySelectorAll('.card').forEach(c=>c.classList.remove('drop-before','drop-after','drop-child'));const r=card.getBoundingClientRect(),ratio=(e.clientY-r.top)/r.height;card.classList.add(ratio<.28?'drop-before':ratio>.72?'drop-after':'drop-child')});
       card.addEventListener('drop',e=>{e.preventDefault();const targetId=card.dataset.id, r=card.getBoundingClientRect(), ratio=(e.clientY-r.top)/r.height;move(dragId,targetId,ratio<.28?'before':ratio>.72?'after':'child')});
       card.querySelector('.title-input').addEventListener('change',e=>update(card.dataset.id,'title',e.target.value.trim()||'Untitled page'));
-      card.querySelector('.action-select').addEventListener('change',e=>update(card.dataset.id,'action',e.target.value));
+      card.querySelector('.action-select').addEventListener('change',e=>updateAction(card.dataset.id,e.target.value));
       card.querySelector('.disclosure').addEventListener('click',e=>{e.stopPropagation();card.closest('.node').classList.toggle('collapsed')});
       card.querySelector('.move-page').addEventListener('click',()=>openMove(card.dataset.id));
       card.querySelector('.notes').addEventListener('click',()=>openNotes(card.dataset.id));
     });
   }
   function isDescendant(candidate,parent){const map=byId();let p=map[candidate]?.parentId;while(p){if(p===parent)return true;p=map[p]?.parentId}return false}
+  function markMoved(item){if(!['Archive','New'].includes(item.action))item.action='Move'}
   function move(id,targetId,position){
     if(!id||id===targetId||isDescendant(targetId,id)){alert('A page cannot be moved inside itself or one of its descendants.');return}
     if(targetId===rootId&&position!=='child')position='child';
-    snapshot();const map=byId(), item=map[id], target=map[targetId], oldParent=item.parentId;
+    snapshot();const map=byId(), item=map[id], target=map[targetId], oldParent=item.parentId;markMoved(item);
     if(position==='child'){item.parentId=targetId;item.order=childrenOf(targetId).filter(x=>x.id!==id).length+1}
     else{item.parentId=target.parentId;const sibs=childrenOf(target.parentId).filter(x=>x.id!==id);const at=sibs.findIndex(x=>x.id===targetId)+(position==='after'?1:0);sibs.splice(at,0,item);sibs.forEach((x,i)=>x.order=i+1)}
     normalize(oldParent);normalize(item.parentId);render();
   }
   function update(id,key,value){snapshot();byId()[id][key]=value;render()}
+  function updateAction(id,value){
+    snapshot();const item=byId()[id];item.action=value;
+    if(value==='Archive'){
+      const archiveChildren=parentId=>childrenOf(parentId).forEach(child=>{child.action='Archive';archiveChildren(child.id)});
+      archiveChildren(id);
+    }
+    render();
+  }
   function openNotes(id){noteId=id;const x=byId()[id];document.getElementById('notesPage').textContent=x.title;document.getElementById('notesText').value=x.notes||'';document.getElementById('notesModal').classList.add('open');document.getElementById('notesText').focus()}
   function closeNotes(){document.getElementById('notesModal').classList.remove('open');noteId=null}
   function treeOrder(){const out=[];function visit(parent){childrenOf(parent).forEach(x=>{out.push(x);visit(x.id)})}visit(null);return out}
@@ -154,7 +165,7 @@ main{max-width:1500px;margin:18px auto 60px;padding:0 22px}.summary{display:grid
   function closeMove(){document.getElementById('moveModal').classList.remove('open');moveId=null}
   function confirmMove(){
     if(!moveId)return;const item=byId()[moveId], oldParent=item.parentId, newParent=document.getElementById('parentSelect').value;
-    snapshot();item.parentId=newParent;item.order=childrenOf(newParent).filter(x=>x.id!==moveId).length+1;normalize(oldParent);normalize(newParent);closeMove();render();
+    snapshot();markMoved(item);item.parentId=newParent;item.order=childrenOf(newParent).filter(x=>x.id!==moveId).length+1;normalize(oldParent);normalize(newParent);closeMove();render();
   }
   function saveNamedSnapshot(){
     const suggested='Checkpoint '+new Date().toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}), name=prompt('Name this snapshot:',suggested);
@@ -189,13 +200,22 @@ main{max-width:1500px;margin:18px auto 60px;padding:0 22px}.summary{display:grid
   }
   function download(name,text,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
   function exportProject(){const payload={name:'Columbia HPM Website Hierarchy',exportedAt:new Date().toISOString(),version:1,items};download('columbia-hpm-hierarchy-project.json',JSON.stringify(payload,null,2),'application/json')}
-  function exportCSV(){const map=byId(), rows=[['ID','Page Title','Parent ID','Parent Title','Sibling Order','Level','Action','Notes','Changed','Current URL']];items.slice().sort((a,b)=>a.id.localeCompare(b.id)).forEach(x=>rows.push([x.id,x.title,x.parentId||'',map[x.parentId]?.title||'',x.order,depth(x),x.action,x.notes||'',changed(x)?'Yes':'No',x.url]));const csv=rows.map(r=>r.map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(',')).join('\r\n');download('columbia-hpm-proposed-hierarchy.csv','\ufeff'+csv,'text/csv;charset=utf-8')}
+  function csvText(rows){return '\ufeff'+rows.map(r=>r.map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(',')).join('\r\n')}
+  function exportCSV(){const map=byId(), rows=[['ID','Page Title','Parent ID','Parent Title','Sibling Order','Level','Action','Notes','Changed','Current URL']];items.slice().sort((a,b)=>a.id.localeCompare(b.id)).forEach(x=>rows.push([x.id,x.title,x.parentId||'',map[x.parentId]?.title||'',x.order,depth(x),x.action,x.notes||'',changed(x)?'Yes':'No',x.url]));download('columbia-hpm-change-log.csv',csvText(rows),'text/csv;charset=utf-8')}
+  function exportFinalCSV(){
+    const rows=[['Tree Row','Page ID','Hierarchy','Page Title','Parent ID','Parent Title','Sibling Order','Level','Action','Notes','URL']], map=byId();let treeRow=0;
+    function walk(parentId,level,ancestorLines=[]){
+      const active=childrenOf(parentId).filter(x=>x.action!=='Archive');
+      active.forEach((x,index)=>{const last=index===active.length-1, connector=level===0?'':(last?'\\-- ':'|-- '), hierarchy=ancestorLines.join('')+connector+x.title;treeRow++;rows.push([treeRow,x.id,hierarchy,x.title,x.parentId||'',map[x.parentId]?.title||'',index+1,level,x.action,x.notes||'',x.url]);walk(x.id,level+1,[...ancestorLines,...(level===0?[]:[last?'    ':'|   '])])})
+    }
+    walk(null,0);download('columbia-hpm-final-hierarchy.csv',csvText(rows),'text/csv;charset=utf-8');
+  }
   search.addEventListener('input',render);
   document.getElementById('undoBtn').addEventListener('click',()=>{if(!history.length)return;items=JSON.parse(history.pop());render();document.getElementById('undoBtn').disabled=!history.length});
   document.getElementById('expandBtn').addEventListener('click',()=>document.querySelectorAll('.node').forEach(n=>n.classList.remove('collapsed')));
   document.getElementById('addPageBtn').addEventListener('click',openAdd);
   document.getElementById('saveSnapshotBtn').addEventListener('click',saveNamedSnapshot);document.getElementById('snapshotsBtn').addEventListener('click',openSnapshots);
-  document.getElementById('exportBtn').addEventListener('click',exportProject);document.getElementById('csvBtn').addEventListener('click',exportCSV);
+  document.getElementById('exportBtn').addEventListener('click',exportProject);document.getElementById('csvBtn').addEventListener('click',exportCSV);document.getElementById('finalCsvBtn').addEventListener('click',exportFinalCSV);
   document.getElementById('importBtn').addEventListener('click',()=>document.getElementById('fileInput').click());
   document.getElementById('fileInput').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;const reader=new FileReader();reader.onload=()=>{try{const p=JSON.parse(reader.result),incoming=Array.isArray(p)?p:p.items;if(!Array.isArray(incoming)||!incoming.every(x=>x.id&&x.title&&'parentId'in x))throw Error();snapshot();items=incoming;render()}catch{alert('That file is not a valid hierarchy project export.')}};reader.readAsText(f);e.target.value=''});
   document.getElementById('resetBtn').addEventListener('click',()=>{if(confirm('Reset every change and restore the October 27, 2026 hierarchy?')){snapshot();items=structuredClone(initial);localStorage.removeItem(STORAGE);render()}});
