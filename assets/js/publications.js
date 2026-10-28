@@ -18,10 +18,7 @@
 
   function cardMatches(card, filters) {
     var technologies = (card.getAttribute("data-technology") || "").split(" ");
-    var lenses = (card.getAttribute("data-lens") || "").split(" ");
-
-    return (filters.technology === "all" || technologies.indexOf(filters.technology) !== -1) &&
-      (filters.lens === "all" || lenses.indexOf(filters.lens) !== -1);
+    return filters.technology === "all" || technologies.indexOf(filters.technology) !== -1;
   }
 
   function updateResults() {

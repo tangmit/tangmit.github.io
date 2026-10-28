@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <div class="publication-explorer" data-publication-explorer>
-  <p class="publication-explorer__intro">Explore my research by technology or research lens. Select one option from either row to narrow the publication list.</p>
+  <p class="publication-explorer__intro">Explore my research by technology. Select an option below to narrow the publication list.</p>
 
   <div class="publication-filters" aria-label="Filter publications">
     <div class="publication-filter-group" data-filter-group="technology">
@@ -15,15 +15,6 @@ author_profile: true
         <button class="publication-chip" type="button" data-filter-value="telemedicine" aria-pressed="false">Telemedicine</button>
         <button class="publication-chip" type="button" data-filter-value="remote-monitoring" aria-pressed="false">Remote monitoring</button>
         <button class="publication-chip" type="button" data-filter-value="portal-messaging" aria-pressed="false">Portal messaging</button>
-      </div>
-    </div>
-
-    <div class="publication-filter-group" data-filter-group="lens">
-      <span class="publication-filter-group__label">Research lens</span>
-      <div class="publication-filter-group__options">
-        <button class="publication-chip" type="button" data-filter-value="all" aria-pressed="true">All</button>
-        <button class="publication-chip" type="button" data-filter-value="policy" aria-pressed="false">Policy-focused</button>
-        <button class="publication-chip" type="button" data-filter-value="management" aria-pressed="false">Management-focused</button>
       </div>
     </div>
 
@@ -55,8 +46,7 @@ author_profile: true
           <article class="publication-card"
             data-publication
             data-year="{{ publication.year }}"
-            data-technology="{{ publication.technology | join: ' ' }}"
-            data-lens="{{ publication.lens | join: ' ' }}">
+            data-technology="{{ publication.technology | join: ' ' }}">
             <div class="publication-card__year">{{ publication.year }}</div>
             <h3 class="publication-card__title"><a href="{{ publication.url }}">{{ publication.title }}</a></h3>
             <p class="publication-card__citation">{{ publication.authors }} <em>{{ publication.publication }}</em>.</p>
@@ -70,9 +60,6 @@ author_profile: true
                     {% else %}Other
                   {% endcase %}
                 </span>
-              {% endfor %}
-              {% for lens in publication.lens %}
-                <span class="publication-card__tag">{% if lens == "policy" %}Policy-focused{% else %}Management-focused{% endif %}</span>
               {% endfor %}
             </div>
             {% if publication.media %}

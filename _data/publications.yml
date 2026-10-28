@@ -5,7 +5,7 @@
   publication: "JAMA Network Open, 9(8), e2630379"
   url: "https://doi.org/10.1001/jamanetworkopen.2026.30379"
   technology: [portal-messaging]
-  lens: [management]
+  # lens: [management]
   media:
     - { name: "Columbia Mailman School of Public Health", url: "https://www.publichealth.columbia.edu/news/study-finds-how-patients-write-their-messages-may-affect-whether-their-doctor-responds" }
     - { name: "CNN", url: "https://www.cnn.com/2026/08/24/health/doctor-patient-portal-responses-wellness" }
@@ -19,7 +19,7 @@
   publication: "Health Affairs, 44(11), 1386–1394"
   url: "https://doi.org/10.1377/hlthaff.2025.00683"
   technology: [remote-monitoring]
-  lens: [management, policy]
+  # lens: [management, policy]
   media:
     - { name: "Columbia Mailman School of Public Health", url: "https://www.publichealth.columbia.edu/news/remote-patient-monitoring-boosts-primary-care-revenue-care-capacity" }
     - { name: "STAT News", url: "https://www.statnews.com/2025/11/07/united-healthcare-remote-patient-monitoring-medicare-advantage/" }
@@ -33,7 +33,7 @@
   publication: "JAMA Network Open, 8(10), e2534549"
   url: "https://doi.org/10.1001/jamanetworkopen.2025.34549"
   technology: [portal-messaging]
-  lens: [management]
+  # lens: [management]
 
 - section: peer-reviewed
   year: 2025
@@ -42,7 +42,7 @@
   publication: "Health Affairs, 44(8), 1005–1010"
   url: "https://doi.org/10.1377/hlthaff.2024.01394"
   technology: [remote-monitoring]
-  lens: [policy]
+  # lens: [policy]
 
 - section: peer-reviewed
   year: 2024
@@ -51,7 +51,7 @@
   publication: "Journal of General Internal Medicine, 39(13), 2471–2477"
   url: "https://doi.org/10.1007/s11606-023-08557-x"
   technology: [remote-monitoring]
-  lens: [management, policy]
+  # lens: [management, policy]
 
 - section: peer-reviewed
   year: 2024
@@ -60,7 +60,7 @@
   publication: "JAMA Network Open, 7(3), e242618"
   url: "https://doi.org/10.1001/jamanetworkopen.2024.2618"
   technology: [portal-messaging]
-  lens: [management]
+  # lens: [management]
   media:
     - { name: "HBS Working Knowledge", url: "https://www.library.hbs.edu/working-knowledge/racial-bias-might-be-infecting-patient-portals-can-ai-help" }
     - { name: "CBS News", url: "https://www.cbsnews.com/news/racial-disparities-in-patient-portal-responses-study/" }
@@ -72,7 +72,7 @@
   publication: "Annals of Internal Medicine, 176(11), 1465–1475"
   url: "https://doi.org/10.7326/M23-1182"
   technology: [remote-monitoring]
-  lens: [management, policy]
+  # lens: [management, policy]
   media:
     - { name: "STAT News", url: "https://www.statnews.com/2023/11/07/remote-patient-monitoring-hypertension-cost-benefit/" }
 
@@ -83,7 +83,7 @@
   publication: "JMIR Formative Research, 7(1), e45713"
   url: "https://doi.org/10.2196/45713"
   technology: []
-  lens: [management]
+  # lens: [management]
   media:
     - { name: "Digital Medicine Society", url: "https://dimesociety.org/resources/market-opportunity-calculator/" }
     - { name: "DiMe Virtual Journal Club", url: "https://www.youtube.com/watch?v=7HU1I2Hb-00" }
@@ -95,7 +95,7 @@
   publication: "JACC: Advances, 1(5), 100156"
   url: "https://doi.org/10.1016/j.jacadv.2022.100156"
   technology: [telemedicine]
-  lens: [management, policy]
+  # lens: [management, policy]
 
 - section: peer-reviewed
   year: 2022
@@ -104,7 +104,7 @@
   publication: "The Milbank Quarterly, 100(3), 650–672"
   url: "https://doi.org/10.1111/1468-0009.12584"
   technology: [telemedicine]
-  lens: [policy]
+  # lens: [policy]
   media:
     - { name: "Harvard Medical School News & Research", url: "https://hms.harvard.edu/news/telemedicine-can-change-care-better-right-rules" }
 
@@ -115,7 +115,7 @@
   publication: "Health Affairs, 41(9), 1248–1254"
   url: "https://doi.org/10.1377/hlthaff.2021.02026"
   technology: [remote-monitoring]
-  lens: [policy]
+  # lens: [policy]
   media:
     - { name: "Fierce Healthcare", url: "https://www.fiercehealthcare.com/digital-health/study-shotgun-approach-remote-patient-monitoring-triggered-small-cluster-physicians" }
 
@@ -126,7 +126,7 @@
   publication: "JAMA Internal Medicine, 182(9), 1005–1006"
   url: "https://doi.org/10.1001/jamainternmed.2022.3043"
   technology: [remote-monitoring]
-  lens: [policy]
+  # lens: [policy]
 
 - section: peer-reviewed
   year: 2022
@@ -135,7 +135,7 @@
   publication: "Journal of the American Medical Informatics Association, 29(3), 453–460"
   url: "https://doi.org/10.1093/jamia/ocab268"
   technology: [portal-messaging]
-  lens: [management, policy]
+  # lens: [management, policy]
   media:
     - { name: "New York Times", url: "https://www.nytimes.com/2023/01/24/health/emails-billing-doctors-patients.html" }
     - { name: "NPR", url: "https://www.npr.org/sections/health-shots/2023/07/21/1188739567/direct-message-doctor-patient-portal-charge" }
@@ -147,7 +147,7 @@
   publication: "Health Affairs Forefront"
   url: "https://www.healthaffairs.org/content/forefront/paying-artificial-intelligence-health-care-setting-right-precedent-amidst-growing-use"
   technology: []
-  lens: [policy]
+  # lens: [policy]
 
 - section: other-articles
   year: 2023
@@ -156,7 +156,7 @@
   publication: "Harvard Business Review"
   url: "https://hbr.org/2023/06/how-to-tap-the-full-potential-of-telemedicine"
   technology: [telemedicine]
-  lens: [management]
+  # lens: [management]
 
 - section: genetics
   year: 2019
@@ -165,7 +165,7 @@
   publication: "Journal of Alzheimer's Disease, 72(1), 301–318"
   url: "https://doi.org/10.3233/JAD-190568"
   technology: []
-  lens: []
+  # lens: []
 
 - section: genetics
   year: 2019
@@ -174,7 +174,7 @@
   publication: "Nature Genetics, 51(3), 414–430"
   url: "https://doi.org/10.1038/s41588-019-0358-2"
   technology: []
-  lens: []
+  # lens: []
 
 - section: genetics
   year: 2018
@@ -183,4 +183,4 @@
   publication: "Nucleic Acids Research, 46(17), 8740–8753"
   url: "https://doi.org/10.1093/nar/gky686"
   technology: []
-  lens: []
+  # lens: []
