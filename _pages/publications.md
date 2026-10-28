@@ -15,6 +15,7 @@ author_profile: true
         <button class="publication-chip" type="button" data-filter-value="telemedicine" aria-pressed="false">Telemedicine</button>
         <button class="publication-chip" type="button" data-filter-value="remote-monitoring" aria-pressed="false">Remote monitoring</button>
         <button class="publication-chip" type="button" data-filter-value="portal-messaging" aria-pressed="false">Portal messaging</button>
+        <button class="publication-chip" type="button" data-filter-value="ai" aria-pressed="false">AI</button>
       </div>
     </div>
 
@@ -57,6 +58,7 @@ author_profile: true
                     {% when "telemedicine" %}Telemedicine
                     {% when "remote-monitoring" %}Remote monitoring
                     {% when "portal-messaging" %}Portal messaging
+                    {% when "ai" %}AI
                     {% else %}Other
                   {% endcase %}
                 </span>
