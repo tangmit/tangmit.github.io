@@ -1,0 +1,186 @@
+- section: peer-reviewed
+  year: 2026
+  title: "Care Team Response to Patient Portal Message Content and Writing Style"
+  authors: "<strong>Tang, M.</strong>, Rotenstein, L. S., Stern, A. D., Mishuris, R. G., & Barnett, M. L."
+  publication: "JAMA Network Open, 9(8), e2630379"
+  url: "https://doi.org/10.1001/jamanetworkopen.2026.30379"
+  technology: [portal-messaging]
+  lens: [management]
+  media:
+    - { name: "Columbia Mailman School of Public Health", url: "https://www.publichealth.columbia.edu/news/study-finds-how-patients-write-their-messages-may-affect-whether-their-doctor-responds" }
+    - { name: "CNN", url: "https://www.cnn.com/2026/08/24/health/doctor-patient-portal-responses-wellness" }
+    - { name: "Forbes", url: "https://www.forbes.com/sites/paulhsieh/2026/08/30/how-your-writing-affects-whether-your-doctor-replies-to-your-messages/" }
+    - { name: "Digital Health Wire", url: "https://digitalhealthwire.com/the-hidden-bias-in-portal-message-triage/" }
+
+- section: peer-reviewed
+  year: 2025
+  title: "Practices That Adopted Remote Physiologic Monitoring Increased Medicare Revenue And Outpatient Visits"
+  authors: "<strong>Tang, M.</strong>, Stern, A. D., Marcondes, F., & Mehrotra, A."
+  publication: "Health Affairs, 44(11), 1386–1394"
+  url: "https://doi.org/10.1377/hlthaff.2025.00683"
+  technology: [remote-monitoring]
+  lens: [management, policy]
+  media:
+    - { name: "Columbia Mailman School of Public Health", url: "https://www.publichealth.columbia.edu/news/remote-patient-monitoring-boosts-primary-care-revenue-care-capacity" }
+    - { name: "STAT News", url: "https://www.statnews.com/2025/11/07/united-healthcare-remote-patient-monitoring-medicare-advantage/" }
+    - { name: "STAT Health Tech Newsletter", url: "https://www.statnews.com/2025/11/06/fda-ai-llm-therapy-chatbot-regulation-health-tech/" }
+    - { name: "AJMC", url: "https://www.ajmc.com/view/remote-patient-monitoring-improves-patient-access-care-and-revenue" }
+
+- section: peer-reviewed
+  year: 2025
+  title: "Patient-Physician Messaging by Race, Ethnicity, Insurance Type, and Preferred Language"
+  authors: "Rotenstein, L. S., Hardy, B., <strong>Tang, M.</strong>, Steitz, B., Turer, R. W., Alsentzer, E., & Barnett, M. L."
+  publication: "JAMA Network Open, 8(10), e2534549"
+  url: "https://doi.org/10.1001/jamanetworkopen.2025.34549"
+  technology: [portal-messaging]
+  lens: [management]
+
+- section: peer-reviewed
+  year: 2025
+  title: "Remote Physiologic Monitoring Use Among Medicare Patients: Differences By Race, Ethnicity"
+  authors: "Marcondes, F., <strong>Tang, M.</strong>, Haas, J. S., Mehrotra, A., & Bustamante, A. V."
+  publication: "Health Affairs, 44(8), 1005–1010"
+  url: "https://doi.org/10.1377/hlthaff.2024.01394"
+  technology: [remote-monitoring]
+  lens: [policy]
+
+- section: peer-reviewed
+  year: 2024
+  title: "Challenges and Facilitators in Implementing Remote Patient Monitoring Programs in Primary Care"
+  authors: "Hailu, R., Sousa, J., <strong>Tang, M.</strong>, Mehrotra, A., & Uscher-Pines, L."
+  publication: "Journal of General Internal Medicine, 39(13), 2471–2477"
+  url: "https://doi.org/10.1007/s11606-023-08557-x"
+  technology: [remote-monitoring]
+  lens: [management, policy]
+
+- section: peer-reviewed
+  year: 2024
+  title: "Differences in Care Team Response to Patient Portal Messages by Patient Race and Ethnicity"
+  authors: "<strong>Tang, M.</strong>, Mishuris, R. G., Payvandi, L., & Stern, A. D."
+  publication: "JAMA Network Open, 7(3), e242618"
+  url: "https://doi.org/10.1001/jamanetworkopen.2024.2618"
+  technology: [portal-messaging]
+  lens: [management]
+  media:
+    - { name: "HBS Working Knowledge", url: "https://www.library.hbs.edu/working-knowledge/racial-bias-might-be-infecting-patient-portals-can-ai-help" }
+    - { name: "CBS News", url: "https://www.cbsnews.com/news/racial-disparities-in-patient-portal-responses-study/" }
+
+- section: peer-reviewed
+  year: 2023
+  title: "Effects of Remote Patient Monitoring Use on Care Outcomes Among Medicare Patients With Hypertension"
+  authors: "<strong>Tang, M.</strong>, Nakamoto, C. H., Stern, A. D., Zubizarreta, J. R., Marcondes, F. O., Uscher-Pines, L., Schwamm, L. H., & Mehrotra, A."
+  publication: "Annals of Internal Medicine, 176(11), 1465–1475"
+  url: "https://doi.org/10.7326/M23-1182"
+  technology: [remote-monitoring]
+  lens: [management, policy]
+  media:
+    - { name: "STAT News", url: "https://www.statnews.com/2023/11/07/remote-patient-monitoring-hypertension-cost-benefit/" }
+
+- section: peer-reviewed
+  year: 2023
+  title: "Building the Business Case for an Inclusive Approach to Digital Health Measurement With a Web App (Market Opportunity Calculator): Instrument Development Study"
+  authors: "<strong>Tang, M.</strong>, Sharma, Y., Goldsack, J. C., & Stern, A. D."
+  publication: "JMIR Formative Research, 7(1), e45713"
+  url: "https://doi.org/10.2196/45713"
+  technology: []
+  lens: [management]
+  media:
+    - { name: "Digital Medicine Society", url: "https://dimesociety.org/resources/market-opportunity-calculator/" }
+    - { name: "DiMe Virtual Journal Club", url: "https://www.youtube.com/watch?v=7HU1I2Hb-00" }
+
+- section: peer-reviewed
+  year: 2022
+  title: "Investigating the Association Between Telemedicine Use and Timely Follow-Up Care After Acute Cardiovascular Hospital Encounters"
+  authors: "<strong>Tang, M.</strong>, Holmgren, A. J., McElrath, E. E., Bhatt, A. S., Varshney, A. S., Lee, S. G., Vaduganathan, M., Adler, D. S., & Huckman, R. S."
+  publication: "JACC: Advances, 1(5), 100156"
+  url: "https://doi.org/10.1016/j.jacadv.2022.100156"
+  technology: [telemedicine]
+  lens: [management, policy]
+
+- section: peer-reviewed
+  year: 2022
+  title: "How Emerging Telehealth Models Challenge Policymaking"
+  authors: "<strong>Tang, M.</strong>, Chernew, M. E., & Mehrotra, A."
+  publication: "The Milbank Quarterly, 100(3), 650–672"
+  url: "https://doi.org/10.1111/1468-0009.12584"
+  technology: [telemedicine]
+  lens: [policy]
+  media:
+    - { name: "Harvard Medical School News & Research", url: "https://hms.harvard.edu/news/telemedicine-can-change-care-better-right-rules" }
+
+- section: peer-reviewed
+  year: 2022
+  title: "Rapid Growth Of Remote Patient Monitoring Is Driven By A Small Number Of Primary Care Providers"
+  authors: "<strong>Tang, M.</strong>, Mehrotra, A., & Stern, A. D."
+  publication: "Health Affairs, 41(9), 1248–1254"
+  url: "https://doi.org/10.1377/hlthaff.2021.02026"
+  technology: [remote-monitoring]
+  lens: [policy]
+  media:
+    - { name: "Fierce Healthcare", url: "https://www.fiercehealthcare.com/digital-health/study-shotgun-approach-remote-patient-monitoring-triggered-small-cluster-physicians" }
+
+- section: peer-reviewed
+  year: 2022
+  title: "Trends in Remote Patient Monitoring Use in Traditional Medicare"
+  authors: "<strong>Tang, M.</strong>, Nakamoto, C. H., Stern, A. D., & Mehrotra, A."
+  publication: "JAMA Internal Medicine, 182(9), 1005–1006"
+  url: "https://doi.org/10.1001/jamainternmed.2022.3043"
+  technology: [remote-monitoring]
+  lens: [policy]
+
+- section: peer-reviewed
+  year: 2022
+  title: "Assessing the Impact of the COVID-19 Pandemic on Clinician Ambulatory Electronic Health Record Use"
+  authors: "Holmgren, A. J., Downing, N. L., <strong>Tang, M.</strong>, Sharp, C., Longhurst, C., & Huckman, R. S."
+  publication: "Journal of the American Medical Informatics Association, 29(3), 453–460"
+  url: "https://doi.org/10.1093/jamia/ocab268"
+  technology: [portal-messaging]
+  lens: [management, policy]
+  media:
+    - { name: "New York Times", url: "https://www.nytimes.com/2023/01/24/health/emails-billing-doctors-patients.html" }
+    - { name: "NPR", url: "https://www.npr.org/sections/health-shots/2023/07/21/1188739567/direct-message-doctor-patient-portal-charge" }
+
+- section: other-articles
+  year: 2024
+  title: "Paying for AI In Healthcare: Setting The Right Precedent Amidst Growing Use"
+  authors: "<strong>Tang, M.</strong>, Wilson, K., & Mehrotra, A."
+  publication: "Health Affairs Forefront"
+  url: "https://www.healthaffairs.org/content/forefront/paying-artificial-intelligence-health-care-setting-right-precedent-amidst-growing-use"
+  technology: []
+  lens: [policy]
+
+- section: other-articles
+  year: 2023
+  title: "How to Tap the Full Potential of Telemedicine"
+  authors: "<strong>Tang, M.</strong>, Short, L., June, R., Dowling, M., & Mehrotra, A."
+  publication: "Harvard Business Review"
+  url: "https://hbr.org/2023/06/how-to-tap-the-full-potential-of-telemedicine"
+  technology: [telemedicine]
+  lens: [management]
+
+- section: genetics
+  year: 2019
+  title: "Inferring the Molecular Mechanisms of Noncoding Alzheimer's Disease-Associated Genetic Variants"
+  authors: "Amlie-Wolf, A., <strong>Tang, M.</strong>, Way, J., Dombroski, B., Jiang, M., Vrettos, N., ..., Wang, L. S., & Schellenberg, G. D."
+  publication: "Journal of Alzheimer's Disease, 72(1), 301–318"
+  url: "https://doi.org/10.3233/JAD-190568"
+  technology: []
+  lens: []
+
+- section: genetics
+  year: 2019
+  title: "Genetic Meta-Analysis of Diagnosed Alzheimer’s Disease Identifies New Risk Loci and Implicates Aβ, Tau, Immunity and Lipid Processing"
+  authors: "Kunkle, B. W., Grenier-Boley, B., Sims, R., Bis, J. C., Naj, A. C., Boland, A., Vronskaya, M., Lee, S. J., Amlie-Wolf, A., Bellenguez, C., ..., <strong>Tang, M.</strong>, ..., Schellenberg, G. D., Lambert, J. C., & Pericak-Vance, M. A."
+  publication: "Nature Genetics, 51(3), 414–430"
+  url: "https://doi.org/10.1038/s41588-019-0358-2"
+  technology: []
+  lens: []
+
+- section: genetics
+  year: 2018
+  title: "INFERNO: INFERring the Molecular Mechanisms of NOncoding Genetic Variants"
+  authors: "Amlie-Wolf, A., <strong>Tang, M.</strong>, Mlynarski, E. E. M., Kuksa, P. P., Valladares, O., Katanic, Z., Tsuang, D., Brown, C. D., Schellenberg, G. D., & Wang, L. S."
+  publication: "Nucleic Acids Research, 46(17), 8740–8753"
+  url: "https://doi.org/10.1093/nar/gky686"
+  technology: []
+  lens: []
